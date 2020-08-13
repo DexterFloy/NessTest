@@ -71,7 +71,6 @@ public class StepDefinitionsHomePage {
 
 	@Then("I Verify That \"(.*)\" Page Is Loaded")
 	public void iVerifyThatPageIsLoaded(String elementName) {
-
 		switch (elementName) {
 		case "searchResult":
 			waitForDebugTime(1000);
